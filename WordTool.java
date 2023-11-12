@@ -13,7 +13,6 @@ public class WordTool{
             else
             hs.put(s,1);
             avg=avg+s.length();
-            hs.put(s,hs.get(s)+1);
             System.out.print(s+" ");
             c++;
         }
